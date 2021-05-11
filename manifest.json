@@ -1,0 +1,11 @@
+{
+  "name": "Cookie Cutter - v3",
+  "manifest_version": 3,
+  "version": "3.0",
+  "permissions": ["cookies", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}
